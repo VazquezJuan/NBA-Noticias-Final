@@ -1,0 +1,60 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+
+main{
+    .tittle__jugadores{
+        width: auto;
+        height: auto;
+        margin: 1em auto;
+        font-size: 2em;
+        text-align: center;
+        color: #f3f3f3;
+        box-shadow: rgba(6, 6, 250, 0.25) 0px 30px 60px -12px inset, rgba(240, 225, 225, 0.3) 0px 18px 36px -18px inset;
+    }
+    .container__jugadores{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .card__jugadores{
+            width: 335px;
+            font-weight: bold;
+            margin: 3em 6em;
+            box-shadow: $boxShadow;
+            border: 2px solid beige;
+            img{
+                border-bottom: dotted bisque 2px;
+            }
+            h2{
+                color: #f3f3f3;
+            }
+            p{
+                padding: 15px;
+                text-align: start;
+                color: #ffffff;
+                font-size: 1em;
+            }
+        }
+        h1{
+            font-size: 3rem;
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+
+
+
+
+@media (max-width: 530px){ 
+    .card__jugadores{
+        width: 270px;
+        img{
+            margin: auto;
+            width: 200px;
+            height: 330px;
+        }
+    }
+}

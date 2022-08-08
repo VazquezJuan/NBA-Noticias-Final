@@ -1,0 +1,30 @@
+@import "../utilities/variables";
+@import "../utilities/maps";
+
+.footer{
+    width: 100%;
+    background-image: url(../assets/nba-background.jpg);
+    background-position-y:35%;
+    height: 130px;
+    color: #fff;
+    border-top: 3px solid black;
+    &__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 25px;
+        line-height: 100px;
+    }
+    a{
+        i{
+        color: map-get($map: $paleta, $key:'uno' );
+        font-size: 2em;
+        box-shadow: rgba(255, 254, 254, 0.25) 0px 25px 50px -12px;
+        margin: 5px 20px;
+        }
+    }        
+}
+
+
+

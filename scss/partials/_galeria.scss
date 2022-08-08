@@ -1,0 +1,60 @@
+@import "./scss/utilities/mixins";
+@import "./scss/utilities/tipografias";
+@import "./scss/utilities/variables";
+@import "./scss/utilities/maps";
+
+.box{
+    @include d-flex(center, flex-end, row);
+    background-color: map-get($map: $bg, $key:'dos' );
+    color: map-get($map: $paleta, $key:'cuatro' );
+    border: solid 2px $color;
+    margin: 3em 15px;
+    width: 200px;
+    height: 100px;
+    box-shadow: $boxShadow;
+}
+
+
+main{
+    .tittle__galeria{
+        font-size: 2em;
+        color: #f3f3f3;
+        text-align: center;
+        text-decoration: underline;
+        margin: 2em auto;
+    }
+    .videos__container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .videos__galeria{
+            box-shadow: $boxShadow;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 3em 2em;
+            .video{
+                margin: auto;
+                border: 6px double #f3f3f3;
+                border-radius: 6px;
+                width: 275px;
+                height: auto;
+                padding: 1px;
+            }
+            h2{
+                width: 100%;
+                text-align: center;
+                margin: 0.5em 0;
+                background-color: black;
+                font-size: 1.5em;
+                color: #f3f3f3;
+            }
+        }
+    }
+}
+

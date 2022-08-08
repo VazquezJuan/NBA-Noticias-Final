@@ -1,0 +1,89 @@
+main{
+    .nosotros__section-uno{
+        width: 100%;
+        padding: 3em;
+        .nosotros__article-uno{
+            
+            border: black double 3px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 5em auto;
+            h1{
+                text-decoration: underline;
+                margin: 2em auto;
+                text-align: center;
+                font-size: 3em;
+                color: beige;
+                font-weight: bold;
+            }
+            img{
+                padding: 5px;
+                width: 100%;
+                border: solid 5px #000000;
+                margin: 1em;
+            }
+            p{
+                border: black double 3px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+                padding: 1em;
+                text-align: start;
+                font-size: 1.5em;
+                color: beige;
+            }
+        }
+
+    }
+    .nosotros__article-dos{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        h2{
+            margin: 25px auto;
+            font-size: 2em;
+            color: beige;
+        }
+        h3{
+            margin: 3em auto;
+            font-size: 1.7em;
+            color: blanchedalmond;
+        }
+    }
+    .nosotros__section-dos{
+        width: 80%;
+        height: auto;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        .article__conferencia{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 5rem auto;
+            img{
+                width: 35%;
+                margin: 2em auto;
+            }    
+            ol{
+                color: #f3f3f3;
+                font-size: 1.5em;
+                font-weight: bold;
+                text-decoration: solid;   
+            }
+            
+        }        
+    }
+}
+
+

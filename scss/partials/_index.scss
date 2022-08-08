@@ -1,0 +1,74 @@
+@import "./scss/utilities/mixins";
+@import "./scss/utilities/tipografias";
+@import "./scss/utilities/variables";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../assets/nba-bg.jpg);
+}
+
+
+
+
+
+
+.main__index{
+    h1{
+        text-align: center;
+        margin: auto;
+        color: rgb(255, 255, 255);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .text__index{
+        @include texto($fontSize,$textStart, $color); 
+    }
+}
+
+.article{
+    &__tittle{
+        width: auto;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 3em;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        margin: 15px auto;
+    }
+    &__portland{
+        color: rgb(134, 28, 28);
+        font-size: 2em;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    &__orlando{
+        color: darkblue;
+        font-size: 2em;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    &__memphis{
+        color: blue;
+        font-size: 2em;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+    &__pistons{
+        color: brown;
+        font-size: 2em;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+    .text__center{
+        margin: auto;
+        text-align: center;
+        }
+
+}
+
+
+.bd__inset{
+    border: 12px inset #A40A4B;
+    border-radius: 30px 40px 40px 0px;
+}
+form{
+    color: #f3f3f3;
+}
