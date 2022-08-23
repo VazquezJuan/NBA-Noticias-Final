@@ -18,7 +18,7 @@
   background-image: url(../assets/nba-background.jpg);
   background-position-y: 35%;
   height: 90px;
-  color: #fff;
+  color: #010101;
   margin-bottom: 40px; }
   .nav a img {
     width: 200px;
@@ -36,7 +36,7 @@
     grid-auto-flow: column;
     gap: 2em; }
     .nav__menu__item {
-      color: #fff;
+      color: #050505;
       text-decoration: none;
       --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%); }
       .nav__menu__item::after {
@@ -49,7 +49,7 @@
         clip-path: var(--clippy);
         transition: clip-path .5s; }
       .nav__menu__item:hover {
-        color: #fff;
+        color: #583030;
         --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%); }
   .nav__label {
     display: none; }
@@ -269,6 +269,9 @@ main .main__equipos {
         border-top: solid 1px #f3f3f3;
         height: 50px;
         line-height: 50px; }
+        main .main__equipos .card .back .link button a {
+          text-decoration: none;
+          color: #f3f3f3; }
 
 @media (max-width: 530px) {
   .tittle__equipos {
@@ -294,12 +297,14 @@ main .container__jugadores {
     width: 335px;
     font-weight: bold;
     margin: 3em 6em;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    border: 2px solid beige; }
-    main .container__jugadores .card__jugadores img {
-      border-bottom: dotted bisque 2px; }
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
+    main .container__jugadores .card__jugadores img_ai {
+      width: 330px;
+      height: 440px; }
     main .container__jugadores .card__jugadores h2 {
-      color: #f3f3f3; }
+      margin: 5px auto;
+      color: #f3f3f3;
+      text-align: center; }
     main .container__jugadores .card__jugadores p {
       padding: 15px;
       text-align: start;
@@ -319,7 +324,7 @@ main .container__jugadores {
 
 main .nosotros__section-uno {
   width: 100%;
-  padding: 3em; }
+  padding: 2em; }
   main .nosotros__section-uno .nosotros__article-uno {
     border: black double 3px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
@@ -439,6 +444,39 @@ main .videos__container {
       background-color: black;
       font-size: 1.5em;
       color: #f3f3f3; }
+
+.container__error {
+  width: 50%;
+  height: 500px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 5px dashed black;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center; }
+  .container__error h1 {
+    margin: 15px;
+    font-size: 52px;
+    color: beige;
+    text-decoration: underline; }
+  .container__error p {
+    color: black;
+    font-size: 25px;
+    text-align: center; }
+  .container__error a {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    margin: auto;
+    background: #420132;
+    text-decoration: none;
+    text-align: center; }
+    .container__error a:hover {
+      background-color: white;
+      color: black; }
 
 .btn__more, .btn__rounded {
   background: #420132;

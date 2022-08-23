@@ -1,0 +1,38 @@
+
+.container__error{
+    width: 50%;
+    height: 500px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 5px dashed black;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    h1{
+        margin: 15px;
+        font-size: 52px;
+        color: beige;
+        text-decoration: underline;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        text-align: center;
+    }
+    a{
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        margin: auto;
+        background:map-get($map: $bg, $key:'dos' );
+        text-decoration: none;
+        text-align: center;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}
