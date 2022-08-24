@@ -18,7 +18,7 @@ Utilizacion del SEO:<br>
 En todas las secciones utilize las mismas Palabras Claves que son:  "Baloncesto, Basquet, Spalding, Nba, Basketball, Deportes, Noticias basquet, lakers, celtics, bulls, michael jordan, lebron james, kobe bryant, steph curry"<br>
 
 Inicio/Index:<br>
-Description:<br>
+Description: "NBA Noticias es una pagina no oficial de la nba, donde se actualiza todo el tiempo para ver en vivo las primicias de este deporte"<br>
 
 Equipos:<br>
 Description: "NBA Noticias, seccion Equipos. En este apartado se encuentran los equipos de la NBA, con mas anillos ganados"<br>
