@@ -1,4 +1,5 @@
-NBA - NOTICIAS es un sitio web, que cuenta con 5 paginas. Las secciones son  <br>
+NBA - NOTICIAS es un sitio web, que cuenta con 5 paginas. Las secciones son: <br>
+
 Inicio/index <br>
 Equipos <br>
 Jugadores. En esta seccion podemos encontrar la pagina 404 al hacer click en Detalles de las flip-cards<br>
@@ -31,3 +32,15 @@ Description: "NBA Noticias Nosotros te enseñamos todas las reglas del baloncest
 
 Galeria:<br>
 Description: "NBA Noticias Galeria. Se encuentran las mejores jugadas de las ultimas decadas"<br>
+
+
+
+
+
+LINKS:<br>
+
+GitHub Repo: https://github.com/VazquezJuan/NBA-Noticias-Final
+
+GitHub Pages: https://vazquezjuan.github.io/NBA-Noticias-Final/
+
+Netlify: https://noticias-nba.netlify.app/
